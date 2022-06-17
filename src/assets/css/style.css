@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.assignments {
+    margin-bottom: 30px;
+    width: 39%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.assignment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assignment input {
+    padding-left: 10px;
+}
+
+/* body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+/* } */
+
+#app {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+body {
+    background-color: #333;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.form div.name {
+    width: 50%;
+}
+
+.form div.tag {
+    width: 30%;
+}
+
+
+.form input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.form input[type="text"] {
+    width: 100%;
+}
+
+.form input[type="submit"] {
+    width: 10%;
+}
+
+.tags {
+    margin-bottom: 20px;
+}
+
+.tags h5 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tags button {
+    background-color: transparent;
+    padding: 4px 8px;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tags button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tags button.active {
+    background-color: aqua;
+    color: black;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.assignmentLists {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
